@@ -1,5 +1,11 @@
 # ProjetoArq_SimuladorCache
 
+<p align="center">
+	<br>
+	<img src="prints/teste4.PNG"/ >
+	<br>
+</p>
+
 <p id="docs-internal-guid-3d6d8a8c-7fff-f4e0-4b10-4a391ecd5deb" dir="ltr"><span>Se o desempenho do processador fosse atrelado ao desempenho da memória RAM, os PCs já teriam estagnado a um bom tempo, já que simplesmente não faria sentido desenvolver processadores mais rápidos, apenas para que eles passassem esperar mais e mais ciclos pelas leituras na memória. A solução veio com a introdução da memória cache, que serve como um reservatório temporário de dados com grande possibilidade de serem usados pelo processador, reduzindo a percentagem de vezes em que ele precisa buscar informações diretamente na memória.</span></p>
 <p dir="ltr"><span>Sempre que precisa de novas informações, o processador checa primeiro as informações disponíveis no cache L1. Caso não encontre o que precisa, ele verifica em seguida o cache L2 e por último a memória. Sempre que o processador encontra o que precisa nos caches temos um "cache hit" e sempre que precisa recorrer à memória temos um "cache miss". Quanto maior a percentagem de cache hits, melhor é o desempenho.</span></p>
 <br /><ol>
